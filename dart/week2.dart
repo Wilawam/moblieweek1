@@ -9,7 +9,7 @@ callWeb("Google" , protocal: "https" , port : 443);
  // } else{
    // print("Gen Y");
   // }
-// การเช็คเงื่อนไข           True         False
+// การเช็คเงื่อนไข 
  String callGen(int year) => (year >=1996) ? ("Gen Z") : ("Gen Y") ;
 
 //การสร้าง funtion การแสดงข้อมูลในตัวแปร list โดยใช้ for in และ return จำนวนข้อมูลใน list กลับด้วย
