@@ -1,4 +1,4 @@
-import '../problem.dart';
+import 'problem.dart';
 import 'country.dart';
 class City extends Country with Problem{
 City() : super("Tokyo", "Saru");
